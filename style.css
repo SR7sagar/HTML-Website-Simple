@@ -1,0 +1,283 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 40px;
+}
+
+header h1 {
+	display: inline;
+	font-size: 32px;
+	font-weight: 400;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.homered {
+	background-color: red;
+	padding: 24px 10px 16px 10px;
+	color: black;
+}
+
+.homered1 {
+	background-color: red;
+	padding: 24px 10px 16px 10px;
+	color: black;
+}
+
+.homered2 {
+	background-color: red;
+	padding: 24px 10px 16px 10px;
+	color: black;
+}
+
+.homered3 {
+	background-color: red;
+	padding: 24px 10px 16px 10px;
+	color: black;
+}
+
+
+.divider {
+	background-color: red;
+	height: 5px;
+}
+
+.divider1 {
+	background-color: red;
+	height: 5px;	
+}
+
+.divider2 {
+	background-color: red;
+	height: 5px;
+}
+
+.divider3 {
+	background-color: red;
+	height: 5px;
+}
+
+.homeblack:hover {
+	background-color: blue;
+	padding: 24px 10px 12px 10px;
+	color: black;
+}
+
+
+.fwimage1 {
+	background-image: url(image/homelogo.png);
+	width: 1235px;
+	height: 950px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 12;
+	padding: 0;	
+}
+
+.fwimage2 {
+	background-image: url(image/ticket.jpg);
+	width: 1235px;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.marquee {
+	color: white;
+	background-color: black;
+}
+
+.text1 {
+	color: black;
+	margin: 5% 10% 0% 10%;
+}
+
+.team1:hover {
+	background-color: blue;
+	padding: 24px 10px 12px 10px;
+	color: black;
+	margin-top: 0px;
+	margin-right: 10px;	
+}
+
+.button1 {
+	cursor: pointer;
+	background: yellow;
+	border: none;
+	height: 40px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	margin: 7% 0% 0% 40%
+}
+
+.transfer {
+	margin: 10%;
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.news {
+	margin: 10%;
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.short {
+	margin: 10%;
+}
+
+.fieldset {
+	margin: 10%;
+}
+
+.next {
+	cursor: pointer;
+	background: yellow;
+	border: 1;
+	height: 30px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 0% 0% 40% 40%;
+	color: black;
+}
+
+.divider2 {
+	background-color: red;
+	height: 5px;
+}
+
+.team2:hover {
+	padding: 24px 10px 11px 10px;
+	background-color: blue;
+	color: black;
+}
+
+.country {
+	border: none;
+	background: yellow;
+	height: 40px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 10% 0% 2% 30%;		 	 
+}
+
+.select {
+	height: 40px;
+	font-size: 1.4em;
+}
+
+.country1 {
+	border: 0;
+	background-color: yellow;
+	height: 40px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 0% 0% 0% 64%;
+}
+
+.select1 {
+	height: 40px;
+	font-size: 1.4em;
+}
+
+.fanclub {
+	cursor: pointer;
+	background: yellow;
+	border: none;
+	height: 40px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 5% 0% 0% 40%;	 				
+}
+
+.submit {
+	cursor: pointer;
+	background: yellow;
+	border: 1px;
+	height: 40px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 3% 0% 0% 70%;
+}
+
+.imagetext {
+	margin-top: 2%;
+}
+
+.fanclubtext {
+	margin: 2%;
+}
+
+.send {
+	cursor: pointer;
+	background: yellow;
+	border: 1;
+	height: 20px;
+	font-size: 0.8em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 0% 0% 0% 3%;
+}
+
+.clear {
+	cursor: pointer;
+	background: yellow;
+	border: 1;
+	height: 20px;
+	font-size: 0.8em;
+	padding: 0 1em;
+	outline: none;
+	font-weight: 900;
+	margin: 0% 0% 0% 3%;
+}
+
+.match {
+	font-size: 23px;
+	background-color: black;
+}
+
+.formation {
+	margin: 3% 2% 0% 2%;
+	font-size: 15px;
+}

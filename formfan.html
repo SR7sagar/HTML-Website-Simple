@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juventus.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="ss0000" text="white">
+		<header>
+			<nav>
+				<img src="image/homelogo.png" width="70px" height="50px">
+					<h1>JUVENTUS CLUB</h1>
+						<ul id="nav">
+							<li><a class="homeblack" href="juventus.html">HOME</a></li>
+							<li><a class="homeblack" href="ticket.html">TICKET FOR MATCHES</a></li>
+							<li><a class="homeblack" href="history.html">HISTORY</a></li>
+							<li><a class="homered3" href="fanclub.html">OFFICIAL FAN CLUB</a></li>
+						</ul>
+			</nav>
+		</header>
+		<div class="divider3"></div>
+		<center>
+			<h1>OFFICIAL FAN CLUB</h1>
+		</center>
+		<form method="post" action="juventus.php">
+			<fieldset>
+				<legend align="right">PERSONAL INFORMATION:</legend>
+				<p>Name:<input type="text" name="name" size="20" maxlength="30"></p>
+				<p>Address:<input type="text" name="address" size="20" maxlength="30"></p>
+				<p>Sex:<input type="radio" name="sex" value="male" checked>Male 
+				       <input type="radio" name="sex" value="female">Female</p>
+				<p>E-mail:<input type="text" name="email" size="20" maxlength="30"></p>
+		        <p>Password:<input type="Password" name="Password" size="20" maxlength="30" ></p>
+			</fieldset>
+			<fieldset>
+				<legend align="right">HOBBY, EDUCATION & OTHERS:</legend>
+				Education:<select>
+					<option value="Less than 5th Grade">Less than 5th Grade</option>
+					<option value="Less tham 10th Grade">Less than 10th Grade</option>
+					<option value="Under 12th Grade">Under 12th Grade</option>
+					<option value="Bachelor">Bachelor</option>
+					<option value="University Student">University Student</option>
+					<option value="Employee">Employee</option>
+					<option value="Others..">Others..</option>
+				</select>
+				<p>
+					Hobbies:<input type="checkbox" name="chk1" value="Watching Movies">Watching Movies
+							<input type="checkbox" name="chk2" value="Football">Football
+							<input type="checkbox" name="chk3" value="Reading">Reading
+							<input type="checkbox" name="chk4" value="Others">Others
+				</p>
+			</fieldset>
+			Few Words:
+			<br>
+			<textarea rows="7" cols="50"></textarea>
+			<p>
+				<input type="Submit" name="Send" class="send">
+				<input type="Reset" name="Clear" class="clear">
+			</p>
+		</form>
+	</body>
+	</html>
